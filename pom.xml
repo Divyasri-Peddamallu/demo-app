@@ -12,6 +12,19 @@
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
   <dependencies>
+  <!-- Selenium Dependency -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+
+    <!-- Appium Java Client Dependency -->
+    <dependency>
+        <groupId>io.appium</groupId>
+        <artifactId>java-client</artifactId>
+        <version>8.4.0</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
