@@ -17,14 +17,20 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.10.0</version>
+            <version>4.9.0</version>
         </dependency>
 
         <!-- Appium Java Client Dependency -->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>8.5.1</version>
+            <version>8.3.0</version>
+        </dependency>
+
+        <dependency>
+           <groupId>org.seleniumhq.selenium</groupId>
+           <artifactId>selenium-support</artifactId>
+           <version>4.9.0</version> <!-- Ensure this is the correct version -->
         </dependency>
 
         <dependency>
@@ -41,6 +47,11 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
             <version>4.5.13</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.91.Final</version> <!-- or latest compatible version -->
         </dependency>
 
         <!-- TestNG Dependency -->

@@ -2,8 +2,10 @@
 <suite name="DemoAppSuite" verbose="1">
     <test name="DemoAppTests">
         <classes>
-            <class name="com.demo.tests.VerifyLoginWithValidCredentialsTest"> <!-- Replace with your actual test class name -->
-            </class>
+            <!--<class name="com.demo.tests.NavigationTest"/> 
+            <class name="com.demo.tests.NotificationTest"/>
+            <class name="com.demo.tests.vanillaAndroidTest"/>-->
+            <class name="com.demo.tests.AndroidAppTest"/>
         </classes>
     </test>
 </suite>
